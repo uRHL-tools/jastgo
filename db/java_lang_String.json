@@ -1,0 +1,282 @@
+{
+  "fields": [],
+  "constructors": [
+    "String()",
+    "String(byte[] bytes)",
+    "String(byte[] bytes, Charset charset)",
+    "String(byte[] ascii, int hibyte)",
+    "String(byte[] bytes, int offset, int length)",
+    "String(byte[] bytes, int offset, int length, Charset charset)",
+    "String(byte[] ascii, int hibyte, int offset, int count)",
+    "String(byte[] bytes, int offset, int length, String charsetName)",
+    "String(byte[] bytes, String charsetName)",
+    "String(char[] value)",
+    "String(char[] value, int offset, int count)",
+    "String(int[] codePoints, int offset, int count)",
+    "String(String original)",
+    "String(StringBuffer buffer)",
+    "String(StringBuilder builder)"
+  ],
+  "methods": [
+    {
+      "returnType": "char",
+      "nameAndParams": "charAt(int index)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "codePointAt(int index)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "codePointBefore(int index)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "codePointCount(int beginIndex, int endIndex)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "compareTo(String anotherString)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "compareToIgnoreCase(String str)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "concat(String str)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "contains(CharSequence s)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "contentEquals(CharSequence cs)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "contentEquals(StringBuffer sb)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "copyValueOf(char[] data)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "copyValueOf(char[] data, int offset, int count)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "endsWith(String suffix)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "equals(Object anObject)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "equalsIgnoreCase(String anotherString)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "format(Locale l, String format, Object... args)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "format(String format, Object... args)"
+    },
+    {
+      "returnType": "byte[]",
+      "nameAndParams": "getBytes()"
+    },
+    {
+      "returnType": "byte[]",
+      "nameAndParams": "getBytes(Charset charset)"
+    },
+    {
+      "returnType": "void",
+      "nameAndParams": "getBytes(int srcBegin, int srcEnd, byte[] dst, int dstBegin)"
+    },
+    {
+      "returnType": "byte[]",
+      "nameAndParams": "getBytes(String charsetName)"
+    },
+    {
+      "returnType": "void",
+      "nameAndParams": "getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "hashCode()"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "indexOf(int ch)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "indexOf(int ch, int fromIndex)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "indexOf(String str)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "indexOf(String str, int fromIndex)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "intern()"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "isEmpty()"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "lastIndexOf(int ch)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "lastIndexOf(int ch, int fromIndex)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "lastIndexOf(String str)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "lastIndexOf(String str, int fromIndex)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "length()"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "matches(String regex)"
+    },
+    {
+      "returnType": "int",
+      "nameAndParams": "offsetByCodePoints(int index, int codePointOffset)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "regionMatches(int toffset, String other, int ooffset, int len)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "replace(char oldChar, char newChar)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "replace(CharSequence target, CharSequence replacement)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "replaceAll(String regex, String replacement)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "replaceFirst(String regex, String replacement)"
+    },
+    {
+      "returnType": "String[]",
+      "nameAndParams": "split(String regex)"
+    },
+    {
+      "returnType": "String[]",
+      "nameAndParams": "split(String regex, int limit)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "startsWith(String prefix)"
+    },
+    {
+      "returnType": "boolean",
+      "nameAndParams": "startsWith(String prefix, int toffset)"
+    },
+    {
+      "returnType": "CharSequence",
+      "nameAndParams": "subSequence(int beginIndex, int endIndex)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "substring(int beginIndex)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "substring(int beginIndex, int endIndex)"
+    },
+    {
+      "returnType": "char[]",
+      "nameAndParams": "toCharArray()"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "toLowerCase()"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "toLowerCase(Locale locale)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "toString()"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "toUpperCase()"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "toUpperCase(Locale locale)"
+    },
+    {
+      "returnType": "String",
+      "nameAndParams": "trim()"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(boolean b)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(char c)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(char[] data)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(char[] data, int offset, int count)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(double d)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(float f)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(int i)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(long l)"
+    },
+    {
+      "returnType": "static String",
+      "nameAndParams": "valueOf(Object obj)"
+    }
+  ]
+}
